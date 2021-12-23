@@ -1,9 +1,11 @@
 {
   "name": "mrbindtbot",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,10 +13,14 @@
     "url": "git+https://github.com/lalamiko7/mrbindtbot.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leander Bindt",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/lalamiko7/mrbindtbot/issues"
   },
-  "homepage": "https://github.com/lalamiko7/mrbindtbot#readme"
+  "homepage": "https://github.com/lalamiko7/mrbindtbot#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0"
+  }
 }
