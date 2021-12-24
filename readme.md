@@ -5,7 +5,7 @@ Made by Leander Bindt
 1. Download the project files or clone the git repository
 2. Install node and npm
 3. Create a .env file with `TOKEN=YOURTOKENHERE`
-4. Install needed node_modules with `npm install`
+4. Install needed node modules with `npm install`
 5. Start the bot with `npm start`
 
 ## Support
