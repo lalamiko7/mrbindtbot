@@ -68,7 +68,7 @@ client.on('interactionCreate', async (interaction) => {
         })
 
         interaction.editReply({
-            content: `The sum of ${number_1} and ${number_2} is ${number_1 + number_2}`,
+            content: `The sum of *${number_1}* and *${number_2}* is *${number_1 + number_2}*`,
         })
     }
 })
