@@ -1,20 +1,19 @@
 {
   "name": "mrbindtbot",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.2.0",
+  "description": "A Discord bot created for general use.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lalamiko7/mrbindtbot.git"
   },
-  "keywords": [],
+  "keywords": ["Discord", "Discord bot", "Leander", "Bindt", "Leander Bindt", "Discord JS"],
   "author": "Leander Bindt",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/lalamiko7/mrbindtbot/issues"
   },
