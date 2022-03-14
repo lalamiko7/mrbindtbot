@@ -1,29 +1,33 @@
 const DiscordJS = require('discord.js');
 
+const name = 'add';
+const description = 'adds two numbers'
+const options = [
+    {
+        name: 'num1',
+        description: 'first number',
+        required: true,
+        type: DiscordJS.Constants.ApplicationCommandOptionTypes.NUMBER
+    },
+    {
+        name: 'num2',
+        description: 'second number',
+        required: true,
+        type: DiscordJS.Constants.ApplicationCommandOptionTypes.NUMBER
+    },
+    {
+        name: 'num3',
+        description: 'a possible third number',
+        required: false,
+        type: DiscordJS.Constants.ApplicationCommandOptionTypes.NUMBER
+    }
+];
+
 function setup (slash_commands) {
     slash_commands.create({
-        name: 'add',
-        description: 'adds two numbers',
-        options: [
-            {
-                name: 'num1',
-                description: 'first number',
-                required: true,
-                type: DiscordJS.Constants.ApplicationCommandOptionTypes.NUMBER
-            },
-            {
-                name: 'num2',
-                description: 'second number',
-                required: true,
-                type: DiscordJS.Constants.ApplicationCommandOptionTypes.NUMBER
-            },
-            {
-                name: 'num3',
-                description: 'a possible third number',
-                required: false,
-                type: DiscordJS.Constants.ApplicationCommandOptionTypes.NUMBER
-            }
-        ]
+        name: name,
+        description: description,
+        options: options
     });
 }
 

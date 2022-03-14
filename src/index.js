@@ -22,6 +22,7 @@ client.on('ready', () => {
     let handler = require('./command-handler.js');
 
     handler(client, prefix, dev_guild);
+    console.log(client.application);
 });
 
 client.login(token);
