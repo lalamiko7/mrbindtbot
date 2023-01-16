@@ -15,4 +15,4 @@ For help and support feel free to email me on [mail@leanderbindt.dev](mailto:mai
 If you do please state the project name and version in the email.
 
 ## Copyright
-This project falls under the MIT license. For more information visit [choosealicense.com](https://choosealicense.com/licenses/mit/) or email me.
+This project falls under the MIT license. For more information visit [choosealicense.com](https://choosealicense.com/licenses/mit/).
