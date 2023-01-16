@@ -9,10 +9,7 @@ Made by Leander Bindt
 5. Start the bot with `npm start`
 
 ## Support
-If you find a bug please feel free to create a [new issue](https://github.com/lalamiko7/mrbindtbot/issues) on GitHub. 
-
-For help and support feel free to email me on [mail@leanderbindt.dev](mailto:mail@leanderbindt.dev).
-If you do please state the project name and version in the email.
+If you find a bug please feel free to create a [new issue](https://github.com/lalamiko7/mrbindtbot/issues) on GitHub.
 
 ## Copyright
 This project falls under the MIT license. For more information visit [choosealicense.com](https://choosealicense.com/licenses/mit/).
